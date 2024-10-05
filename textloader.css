@@ -1,0 +1,12 @@
+/* テキストの初期スタイル */
+.fade-in-text {
+  opacity: 0;
+  transform: translateY(20px);  /* 下から浮き上がる */
+  transition: opacity 1s ease, transform 1s ease;  /* トランジションの設定 */
+}
+
+/* 表示時のスタイル */
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);  /* 元の位置に移動 */
+}
